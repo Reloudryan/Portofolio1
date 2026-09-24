@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="slicing.css">
+</head>
+
+<body>
+  <section id="tentang" class="section hero">
+    <div class="foto-profil">
+      <img src="Foto_Profil.jpg" alt="Foto Profil Saya">
+    </div>
+    <h1>Hi, Aku <span class="nama-highlight">Relo</span></h1>
+    <p class="deskripsi">
+      Seorang pecinta kereta api yang sedang belajar ngoding
+    </p>
+    </div>
+  </section>
+
+  <section id="about" class="section section-about">
+    <h2>About Me</h2>
+    <p class="about-desc">
+      Kenalin, nama lengkapku Reloudryan Rosdi Al Rasyid biasa dipanggil Relo. Aku lahir di Surabaya, 17 Februari 2007. Sekarang sedang berkuliah di Program Studi Informatika, Fakultas Ilmu Komputer, Universitas Jember.
+    </p>
+
+    <h3 class="sub-title">Tingkatan Pendidikan</h3>
+
+    <div class="pendidikan-box">
+      <div class="pendidikan-header">
+        <span>Pendidikan Ditempuh</span>
+        <span>Tahun</span>
+      </div>
+
+      <div class="pendidikan-item">
+        <span class="sekolah">Universitas Jember</span>
+        <span class="tahun">2025 – Sekarang</span>
+      </div>
+
+      <div class="pendidikan-item">
+        <span class="sekolah">SMA Negeri 2 Jember</span>
+        <span class="tahun">2022 – 2025</span>
+      </div>
+
+      <div class="pendidikan-item">
+        <span class="sekolah">SMP Negeri 3 Jember</span>
+        <span class="tahun">2019 – 2022</span>
+      </div>
+
+      <div class="pendidikan-item">
+        <span class="sekolah">SD Al Furqan Jember</span>
+        <span class="tahun">2013 – 2019</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="keahlian" class="section">
+    <h2>Keahlian Saya</h2>
+    <div class="daftar-keahlian">
+      <div class="kotak-skill">Fotografi</div>
+      <div class="kotak-skill">Videografi</div>
+      <div class="kotak-skill">Design Grafis</div>
+    </div>
+  </section>
+
+  <section id="proyek" class="section">
+    <h2>Pengalaman Organisasi</h2>
+
+    <div class="filter-box">
+      <button class="btn-filter aktif" data-kategori="semua">Semua</button>
+      <button class="btn-filter" data-kategori="ekstrakulikuler">Ekstrakulikuler</button>
+      <button class="btn-filter" data-kategori="organisasi">Organisasi Mahasiswa</button>
+    </div>
+
+    <div class="daftar-proyek">
+
+
+      <div class="kartu-proyek" data-kategori="ekstrakulikuler">
+        <div class="gambar-proyek">
+          <img src="Listsmada.jpg" alt="Listmada">
+        </div>
+        <div class="isi-proyek">
+          <span class="label-kategori">Ekstrakulikuler</span>
+          <h3>Listsmada</h3>
+          <p>Ekstrakulikuler di SMA Negeri 2 Jember yang fokus pada bidang Fotografi, Videografi, dan Design Grafis</p>
+        </div>
+      </div>
+
+
+      <div class="kartu-proyek" data-kategori="organisasi">
+        <div class="gambar-proyek">
+          <img src="HMIF.jpg" alt="Himpunan Mahasiswa Informatika">
+        </div>
+        <div class="isi-proyek">
+          <span class="label-kategori">Organisasi Mahasiswa</span>
+          <h3>Himpunan Mahasiswa Informatika</h3>
+          <p>Aplikasi web interaktif menggunakan logika JavaScript dasar.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <h2>Ingin tahu lebih tentang saya?</h2>
+    <p class="sub-kontak">Temukan dan hubungi saya melalui media sosial di bawah ini:</p>
+
+
+    <div class="sosmed-group">
+      <a href="https://wa.me/+6282335945878" target="_blank" class="sosmed-icon wa" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+
+      <a href="https://www.instagram.com/reloudryanrosdi_railfans?stkn=eGhqaWxxMTV0aDVu" target="_blank" class="sosmed-icon ig" title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+
+      <a href="https://github.com/Reloudryan" target="_blank" class="sosmed-icon gh" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+
+      <a href="https://www.linkedin.com/in/reloudryan-rosdi-al-rasyid-27a98b387/" target="_blank" class="sosmed-icon in" title="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+
+
+      <a href="https://www.facebook.com/share/1Eh9RoNS4F/" target="_blank" class="sosmed-icon fb" title="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </div>
+  </section>
+
+
+  <nav class="floating-nav">
+    <a href="#tentang" class="nav-pill active">Home</a>
+    <a href="#about" class="nav-pill">About</a>
+    <a href="#keahlian" class="nav-pill">Skills</a>
+    <a href="#proyek" class="nav-pill">Organisasi</a>
+    <a href="#kontak" class="nav-pill">Contact</a>
+  </nav>
+
+  <script src="slicing.js"></script>
+</body>
+</html>
